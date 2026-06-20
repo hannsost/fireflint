@@ -1,0 +1,8 @@
+target
+.git
+modules
+adapters
+admin
+tools
+deploy/operator/helm
+

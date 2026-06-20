@@ -1,0 +1,18 @@
+[package]
+name = "sitegraph-bin"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "sitegraph"
+path = "src/main.rs"
+
+[dependencies]
+sitegraph-db = { path = "../sitegraph-db" }
+sitegraph-api = { path = "../sitegraph-api" }
+axum.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true

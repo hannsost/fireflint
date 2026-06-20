@@ -1,0 +1,22 @@
+[package]
+name = "sitegraph-api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+sitegraph-domain = { path = "../sitegraph-domain" }
+sitegraph-db = { path = "../sitegraph-db" }
+axum.workspace = true
+tower-http.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
+argon2.workspace = true
+jsonwebtoken.workspace = true
+sha2.workspace = true
+rand.workspace = true
+hex.workspace = true
+utoipa.workspace = true
