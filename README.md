@@ -141,7 +141,7 @@ tools/visual/            # Multi-Viewport-Screenshots zur UI-Selbstprüfung
 
 - `modules/commerce` — modularer B2C/B2B/B2G-Commerce
 - `modules/forms-workflow` — Formulare, Einreichungen und Workflows
-- `modules/edi` — EDI-Gateway für EDIFACT, X12, Peppol und XRechnung
+- `modules/edi` — EDI-Gateway 
 - `modules/privacy-dsgvo` — Datenschutz-Governance über Content, Commerce, Forms und EDI
 
 Beide Bereiche sind vom Rust-Core isoliert. Ihre Szenariotests dienen als
